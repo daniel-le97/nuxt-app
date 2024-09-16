@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Minimal Starter with socket
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -20,56 +20,30 @@ yarn install
 bun install
 ```
 
-## Development Server
+## link socket
 
-Start the development server on `http://localhost:3000`:
+```bash
+npm link @socketsupply/socket
+```
+
+## Run the socket app
+
 
 ```bash
 # npm
-npm run dev
+npm run start
 
 # pnpm
-pnpm run dev
+pnpm run start
 
 # yarn
-yarn dev
+yarn start
 
 # bun
-bun run dev
+bun run start
 ```
 
-## Production
 
-Build the application for production:
 
-```bash
-# npm
-npm run build
 
-# pnpm
-pnpm run build
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
